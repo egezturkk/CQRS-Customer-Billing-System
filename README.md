@@ -21,17 +21,16 @@ This separation allows for loose coupling, scalability, and performance optimiza
 
 ## 📁 Project Structure
 
-```bash
 CQRS-Customer-Billing-System/
 ├── customer-command/
 │   └── Java source, controllers, services, DTOs
 ├── customer-query/
 │   └── Java source, Kafka consumers, Redis integration
 
-▶️ How to Run
+## ▶️ How to Run
 Each service can be built and run individually using Maven or inside containers. Recommended setup is via Docker Compose (not included in this repo).
 
-🙋‍♂️ About the Project
+## 🙋‍♂️ About the Project
 This was developed during a summer internship. I worked primarily on the customer-command side and built full CRUD support, Kafka integration, and PostgreSQL persistence. I also contributed to the customer-query side, consuming events and updating Redis accordingly.
 
 The purpose was to demonstrate understanding of:
