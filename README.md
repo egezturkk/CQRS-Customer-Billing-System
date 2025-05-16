@@ -19,13 +19,6 @@ This separation allows for loose coupling, scalability, and performance optimiza
 - PostgreSQL  
 - Docker (local environment setup)
 
-## 📁 Project Structure
-
-CQRS-Customer-Billing-System/
-├── customer-command/
-│   └── Java source, controllers, services, DTOs
-├── customer-query/
-│   └── Java source, Kafka consumers, Redis integration
 
 ## ▶️ How to Run
 Each service can be built and run individually using Maven or inside containers. Recommended setup is via Docker Compose (not included in this repo).
